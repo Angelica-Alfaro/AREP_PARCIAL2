@@ -14,7 +14,7 @@ Construcción de dos servicios de funciones matemáticas (cos y exp) usando Spar
     git clone https://github.com/Angelica-Alfaro/AREP_PARCIAL2.git
     ```
   
-2. Dentro del cmd, ubicado en el directorio del proyecto clonado y ejecute:
+2. Dentro del cmd ubicado en el directorio del proyecto, ejecute:
      ```sh
     mvn clean install
     java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.App
@@ -22,7 +22,7 @@ Construcción de dos servicios de funciones matemáticas (cos y exp) usando Spar
   
   ***Nota:*** Si el equipo en donde va a correr el proyecto tiene OS Linux debe cambiar el **;** por **:**
   
- 3. Ingrese a su browser de preferencia y ponga cualquier de las siguientes rutas:
+ 3. Ingrese a su browser de preferencia y ponga cualquiera de las siguientes rutas:
     ```sh
     http://localhost:4567/exp?value=3.456
     http://localhost:4567/cos?value=3.456 
